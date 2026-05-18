@@ -7,8 +7,8 @@ import TechStackSection from "../components/TechStackSection";
 
 const MainLayout = ()=>{
     return (
-        <div className="w-[50%] py-24 pr-40">
-            <div className="space-y-40">
+        <div className="w-full px-6 pb-24 sm:px-10 lg:w-[50%] lg:py-24 lg:pr-24 xl:pr-35">
+            <div className="space-y-20 lg:space-y-40">
                 <AboutSection />
                 <ExperienceSection />
                 <ProjectSection />

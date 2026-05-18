@@ -1,8 +1,8 @@
-import collabboardImg from "../assets/react.svg"
-import gotaskyImg from "../assets/react.svg"
-import expenseTrackerImg from "../assets/react.svg"
-import circleChatImg from "../assets/react.svg"
-import gestureOsImg from "../assets/react.svg"
+import collabboardImg from "../assets/spryntsync.png"
+import gotaskyImg from "../assets/gotasky.webp"
+import expenseTrackerImg from "../assets/expensemanager.png"
+import circleChatImg from "../assets/circlechat.png"
+import gestureOsImg from "../assets/GestureOs.png"
 
 export const projects = [
     {

@@ -1,7 +1,7 @@
 const AboutSection = ()=>{
     return (
-        <section id="about" className="text-slate-400">
-            <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-slate-300 mb-10">
+        <section id="about" className="max-w-3xl text-sm leading-relaxed text-slate-400 sm:text-base">
+            <h2 className="text-xs sm:text-sm font-bold uppercase tracking-[0.2em] text-slate-300 mb-6 lg:mb-10">
               About
             </h2>
             <p>
@@ -41,7 +41,7 @@ const AboutSection = ()=>{
               I’m now looking for opportunities where I can contribute to product-scale systems and continue working on 
               backend-heavy, distributed, and real-time applications.
             </p>
-          </section>
+        </section>
     )
 }
 export default AboutSection;
