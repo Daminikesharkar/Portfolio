@@ -5,8 +5,10 @@ const AboutSection = ()=>{
               About
             </h2>
             <p>
-              I’m a Software Engineer with around 2 years of experience building scalable backend systems and real-time applications, 
-              primarily using Node.js, Kafka, Redis, and WebSockets, along with hands-on full-stack development using React.
+              I’m a Software Engineer with around 2 years of experience building <span className="font-medium text-slate-200">
+              {" "}scalable backend systems</span> and real-time applications, 
+              primarily using <span className="font-medium text-slate-200"> Node.js, Kafka, Express.js, Databases, Redis, and WebSockets, </span> along with hands-on full-stack development using 
+              <span className="font-medium text-slate-200">React.</span>
             </p>
             <br/>
             <p>

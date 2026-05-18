@@ -15,7 +15,8 @@ const ContactSection = ()=>{
                 </p>
               </div>
 
-              <form className="mt-8 space-y-5 lg:mt-12 lg:space-y-6">
+              <form  action="https://api.web3forms.com/submit" method="POST" className="mt-8 space-y-5 lg:mt-12 lg:space-y-6">
+                <input type="hidden" name="access_key" value="77a91e75-e856-48a5-8a49-e706f71faf54" />
                 <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6">
                   <div>
                     <label className="mb-2 block text-sm text-slate-400">
@@ -23,6 +24,7 @@ const ContactSection = ()=>{
                     </label>
                     <input
                       type="text"
+                      name="name"
                       placeholder="Your name"
                       className="w-full rounded-xl bg-slate-950 px-4 py-3 text-sm sm:px-5 sm:py-4 sm:text-base text-slate-200 outline-none transition focus:border-teal-300"
                     />
@@ -33,6 +35,7 @@ const ContactSection = ()=>{
                     </label>
                     <input
                       type="email"
+                      name="email"
                       placeholder="you@example.com"
                       className="w-full rounded-xl bg-slate-950 px-4 py-3 text-sm sm:px-5 sm:py-4 sm:text-base text-slate-200 outline-none transition focus:border-teal-300"
                     />
@@ -45,6 +48,7 @@ const ContactSection = ()=>{
                   </label>
                   <textarea
                     rows="6"
+                    name="message"
                     placeholder="Tell me about your project or opportunity..."
                     className="w-full rounded-xl bg-slate-950 px-5 py-4 text-sm sm:px-5 sm:py-4 sm:text-base text-slate-200 outline-none transition focus:border-teal-300 resize-none"
                   ></textarea>

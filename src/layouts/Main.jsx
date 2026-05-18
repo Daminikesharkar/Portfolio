@@ -16,6 +16,11 @@ const MainLayout = ()=>{
                 <TechStackSection />
                 <ContactSection />     
             </div>
+            <div className="text-center text-xs leading-relaxed text-slate-500">
+                <p>
+                    Designed & Built by Damini Kesharkar using React and Tailwind CSS.
+                </p>
+            </div>
         </div>
     )
 }

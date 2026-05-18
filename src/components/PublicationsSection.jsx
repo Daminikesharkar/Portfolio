@@ -22,13 +22,30 @@ const PublicationSection = ()=>{
                   techniques for intuitive human-computer interaction.
                 </p>
 
-                <div className="mt-6">
-                  <a
-                    href="#"
-                    className="text-sm font-medium text-teal-300 hover:text-teal-200"
-                  >
-                    View Publication →
-                  </a>
+                <div className="mt-6 flex flex-wrap items-center gap-5">
+                    <a
+                        href="https://www.irjet.net/archives/V8/i4/IRJET-V8I4590.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group inline-flex items-center gap-2 text-sm font-medium text-teal-300 transition hover:text-teal-200"
+                    >
+                        <span>View Paper</span>
+                        <span className="transition group-hover:translate-x-1">
+                        →
+                        </span>
+                    </a>
+
+                    <a
+                        href="https://drive.google.com/file/d/19dfBsJmlcwq0aIHeg_vTfwR6-PMe7Y2b/view"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group inline-flex items-center gap-2 text-sm font-medium text-teal-300 transition hover:text-teal-200"
+                    >
+                        <span>View Certificate</span>
+                        <span className="transition group-hover:translate-x-1">
+                        →
+                        </span>
+                    </a>
                 </div>
               </div>
             </div>
