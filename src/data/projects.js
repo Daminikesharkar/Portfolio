@@ -1,5 +1,5 @@
 import collabboardImg from "../assets/spryntsync.png"
-import gotaskyImg from "../assets/gotasky.webp"
+import gotaskyImg from "../assets/gotasky.png"
 import expenseTrackerImg from "../assets/expensemanager.png"
 import circleChatImg from "../assets/circlechat.png"
 import gestureOsImg from "../assets/GestureOs.png"
@@ -76,7 +76,7 @@ export const projects = [
             "MediaPipe",
             "OpenCV",
         ],
-        github: "#",
-        live: "#",
+        github: "https://drive.google.com/file/d/1RQhV7LUTKj7XIjglsUWiL80loheUZH78/view",
+        live: "https://drive.google.com/file/d/19dfBsJmlcwq0aIHeg_vTfwR6-PMe7Y2b/view",
     },
 ];
