@@ -35,14 +35,14 @@ const ProjectCard = ({project})=>{
                     >
                         GitHub →
                     </a>
-                    <a
+                    {/* <a
                         href={project.live}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-sm font-medium text-slate-300 transition hover:text-teal-300"
                     >
                         Live Demo →
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>

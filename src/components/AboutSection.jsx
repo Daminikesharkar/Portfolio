@@ -1,49 +1,98 @@
-const AboutSection = ()=>{
-    return (
-        <section id="about" className="max-w-3xl text-sm leading-relaxed text-slate-400 sm:text-base">
-            <h2 className="text-xs sm:text-sm font-bold uppercase tracking-[0.2em] text-slate-300 mb-6 lg:mb-10">
-              About
-            </h2>
-            <p>
-              I’m a Software Engineer with around 2 years of experience building <span className="font-medium text-slate-200">
-              {" "}scalable backend systems</span> and real-time applications, 
-              primarily using <span className="font-medium text-slate-200"> Node.js, Kafka, Express.js, Databases, Redis, and WebSockets, </span> along with hands-on full-stack development using 
-              <span className="font-medium text-slate-200">React.</span>
-            </p>
-            <br/>
-            <p>
-              I started my career at Uptycs, where I worked on backend systems for a large-scale Offline Asset Tracker. There, 
-              I focused on improving system performance and reliability—like building scalable APIs, optimizing telemetry 
-              data pipelines using Presto and MongoDB, and automating workflows using Airflow. I also worked on real-time 
-              data streaming systems using Kafka and WebSockets, which helped reduce latency and improve live data processing. 
-              Alongside that, I contributed to CI/CD pipelines using Jenkins and Docker, which significantly improved deployment 
-              efficiency.
-            </p>
-            <br/>
-            <p>
-              After that, I used a planned break to upskill deeply in full-stack development and system design. During this time, 
-              I built production-grade projects to strengthen my hands-on skills.
-            </p>
-            <br/>
-            <p>
-              One of my key projects is CollabBoard, a real-time collaboration platform where I designed JWT-based authentication, 
-              role-based access control, WebSocket-based real-time updates, and an event-driven notification system using Kafka. 
-              I also integrated Redis for caching and rate limiting, added AI-based task generation using LLM APIs, 
-              implemented payment integration with Razorpay, and deployed the system using AWS with Dockerized services.
-            </p>
-            <br/>
-            <p>
-              Another project is GoTasky, a location-aware smart assistant that uses GPS tracking and proximity detection to trigger real-time 
-              alerts when users are near task locations. It also includes AI-based optimization to intelligently group nearby tasks and 
-              suggest efficient execution order.
-            </p>
-            <br/>
-            <p>
-              Overall, I enjoy working on systems that involve real-time communication, backend architecture, and scalable design. 
-              I’m now looking for opportunities where I can contribute to product-scale systems and continue working on 
-              backend-heavy, distributed, and real-time applications.
-            </p>
-        </section>
-    )
-}
+const AboutSection = () => {
+  return (
+    <section
+      id="about"
+      className="max-w-3xl text-sm leading-relaxed text-slate-400 sm:text-base"
+    >
+      <h2 className="text-xs sm:text-sm font-bold uppercase tracking-[0.2em] text-slate-300 mb-6 lg:mb-10">
+        About
+      </h2>
+
+      <p>
+        I'm a Software Engineer with nearly 2 years of experience building{" "}
+        <span className="font-medium text-slate-200">
+          scalable backend systems
+        </span>
+        ,{" "}
+        <span className="font-medium text-slate-200">
+          real-time applications
+        </span>
+        , and full-stack web solutions. My expertise lies in{" "}
+        <span className="font-medium text-slate-200">
+          Node.js, Express.js, Kafka, Redis, WebSockets, SQL/NoSQL databases,
+          and modern JavaScript technologies
+        </span>
+        , with hands-on experience in{" "}
+        <span className="font-medium text-slate-200">
+          React and TypeScript
+        </span>
+        .
+      </p>
+
+      <br />
+
+      <p>
+        I began my career at{" "}
+        <span className="font-medium text-slate-200">Uptycs</span>, where I
+        worked on{" "}
+        <span className="font-medium text-slate-200">
+          large-scale backend systems
+        </span>{" "}
+        focused on asset tracking, telemetry processing, and real-time data
+        streaming. During this time, I built{" "}
+        <span className="font-medium text-slate-200">scalable APIs</span>,
+        optimized data pipelines, worked with{" "}
+        <span className="font-medium text-slate-200">
+          Kafka-based event streaming
+        </span>
+        , and contributed to{" "}
+        <span className="font-medium text-slate-200">
+          CI/CD and deployment workflows
+        </span>{" "}
+        using Docker and Jenkins.
+      </p>
+
+      <br />
+
+      <p>
+        To further strengthen my skills, I dedicated time to{" "}
+        <span className="font-medium text-slate-200">
+          advanced full-stack development, system design, and modern backend
+          architecture
+        </span>
+        . During this period, I built{" "}
+        <span className="font-medium text-slate-200">
+          production-grade applications
+        </span>{" "}
+        featuring real-time communication, event-driven systems, AI
+        integrations, authentication and authorization, payment processing, and
+        cloud deployment.
+      </p>
+
+      <br />
+
+      <p>
+        I enjoy solving{" "}
+        <span className="font-medium text-slate-200">
+          complex backend challenges
+        </span>
+        , designing{" "}
+        <span className="font-medium text-slate-200">
+          scalable systems
+        </span>
+        , and building products that deliver{" "}
+        <span className="font-medium text-slate-200">
+          reliable real-time experiences
+        </span>
+        . I'm currently seeking{" "}
+        <span className="font-medium text-slate-200">
+          backend-heavy software engineering opportunities
+        </span>{" "}
+        where I can contribute to scalable, distributed, and high-performance
+        applications.
+      </p>
+    </section>
+  );
+};
+
 export default AboutSection;

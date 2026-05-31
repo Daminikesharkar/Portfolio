@@ -6,12 +6,11 @@ export const experiences = [
         company: "Uptycs India Pvt. Ltd.",
         location: "Pune",
         description:
-            "Designed and deployed scalable backend systems, real-time streaming solutions, telemetry pipelines, and containerized deployment workflows while improving automation, performance, and system reliability.",
-        tech: [
+            "Built scalable backend systems, real-time data streaming solutions, and telemetry pipelines for large-scale security products. Contributed to event-driven architectures, deployment automation, and platform reliability using modern cloud and DevOps practices.",        tech: [
         "Node.js",
         "Kafka",
         "MongoDB",
-        "Redis",
+        "Websockets",
         "Docker",
         "Jenkins",
         "Airflow",
@@ -24,8 +23,7 @@ export const experiences = [
         company: "Uptycs India Pvt. Ltd.",
         location: "Pune",
         description:
-            "Developed REST APIs, analytics processing workflows, and optimized database operations using Redis and PostgreSQL for scalable data-driven systems.",
-        tech: [
+            "Developed REST APIs, analytics processing workflows, and data-driven backend services while working with Redis and PostgreSQL to improve performance and system efficiency.",        tech: [
         "JavaScript",
         "Express.js",
         "Redis",

@@ -10,13 +10,16 @@ export const projects = [
         title: "SprintSync",
         image: collabboardImg,
         description:
-            "A real-time collaboration platform featuring AI-powered task generation, live chat, activity tracking, and scalable backend architecture.",
+            "A real-time collaboration platform featuring AI-powered task generation, live chat, activity tracking, and an event-driven backend powered by Kafka, Redis, and WebSockets.",
         tech: [
-            "React",
+            "React.js",
             "Node.js",
+            "Express.js",
             "Kafka",
             "Redis",
             "AWS",
+            "MySql",
+            "Tailwind"
         ],
         github: "https://github.com/Daminikesharkar/SprintSync",
         live: "#",
@@ -29,8 +32,13 @@ export const projects = [
             "A location-aware productivity assistant with real-time proximity alerts, smart errand planning, and live tracking systems.",
         tech: [
             "TypeScript",
+            "Node.js",
+            "Express.js",
+            "React.js",
             "WebSockets",
+            "Prisma",
             "Redis",
+            "PostgreSQL",
             "Tailwind",
         ],
         github: "https://github.com/Daminikesharkar/GoTasky",
@@ -43,10 +51,15 @@ export const projects = [
         description:
             "A full-stack expense management application with AWS deployment workflows and CI/CD automation pipelines.",
         tech: [
-            "Express",
+            "Express.js",
+            "Node.js",
             "MongoDB",
+            "MySql",
             "Jenkins",
             "AWS EC2",
+            "AWS S3",
+            "Docker",
+            "CI/CD"
         ],
         github: "https://github.com/Daminikesharkar/Expense-manager",
         live: "#",
@@ -60,6 +73,8 @@ export const projects = [
         tech: [
             "Socket.IO",
             "Node.js",
+            "Express.js",
+            "Docker",
             "MongoDB",
         ],
         github: "https://github.com/Daminikesharkar/circle-chat-app",
